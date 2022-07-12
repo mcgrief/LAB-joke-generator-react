@@ -1,3 +1,5 @@
+import GetJoke from '../components/GetJoke';
+
 function Home() {
   return (
     <div
@@ -9,7 +11,8 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Welcome Home!</h1>
+      <h1>Baby got a joke itch?</h1>
+      <p><GetJoke /></p>
     </div>
   );
 }
