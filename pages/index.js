@@ -1,4 +1,5 @@
-import GetJoke from '../components/GetJoke';
+// eslint-disable-next-line import/no-named-as-default
+import JokeMeds from '../components/GetJoke';
 
 function Home() {
   return (
@@ -12,7 +13,9 @@ function Home() {
       }}
     >
       <h1>Baby got a joke itch?</h1>
-      <p><GetJoke /></p>
+      <>
+        <JokeMeds />
+      </>
     </div>
   );
 }
